@@ -386,7 +386,7 @@ function updateStatus() {
 
 function resetCapsule() {
   capsule.className = "capsule capsule-hidden";
-  capsule.src = "assets/capsule-closed.png";
+  capsule.src = "capsule-closed.png";
 }
 
 function wait(ms) {
@@ -432,7 +432,7 @@ async function spin() {
   await wait(650);
 
   // 3.52s: open
-  capsule.src = "assets/capsule-open.png";
+  capsule.src = "capsule-open.png";
   capsule.className = "capsule open";
   await wait(450);
 
